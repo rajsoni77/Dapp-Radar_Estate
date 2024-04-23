@@ -37,10 +37,10 @@ const bitfinity = {
 
 const { chains, publicClient } = configureChains(
   [mainnet, bitfinity, hardhat],
-  [alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID }), publicProvider()]
+  [alchemyProvider({ apiKey:"t0O74l8VnlIPvwL84hN8ldkHmW2PV5l0" }), publicProvider()]
 )
 
-const projectId = process.env.NEXT_PUBLIC_PROJECT_ID
+const projectId = "dd9ab225d31f1efd9eecae9d7f493133"
 
 const connectors = connectorsForWallets([
   {
